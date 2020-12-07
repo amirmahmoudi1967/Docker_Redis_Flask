@@ -3,7 +3,7 @@ services:
   flaskapp:
     build:
       context: "./app"
-      dockerfile: "dockerfile_1"
+      dockerfile: "dockerfile_1.Dockerfile"
     image: "flaskimage:latest"
     ports:
       - "33790:80"
